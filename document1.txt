@@ -10,7 +10,11 @@ def partition(l, r, nums):
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return None
 
-ptr = 0
+ptr = 222
+
+g = 9
+ if g == 9:
+    print('f')
  
 # 이 주석은 수정을 위해 쓴 주석입니다.
  
