@@ -11,12 +11,6 @@ def partition(l, r, nums):
     return None
 
 ptr = 222
-
-g = 9
- if g == 9:
-    print('f')
- 
-# 이 주석은 수정을 위해 쓴 주석입니다.
  
 def quicksort(l, r, nums):
     num = 0
