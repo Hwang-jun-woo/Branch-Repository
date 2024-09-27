@@ -8,20 +8,14 @@ def partition(l, r, nums):
             ptr += 1
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
-    return ptr
+    return None
+
+ptr = 0
  
-# With quicksort() function, we will be utilizing the above code to obtain the pointer
-# at which the left values are all smaller than the number at pointer index and vice versa
-# for the right values.
- 
+# 이 주석은 수정을 위해 쓴 주석입니다.
  
 def quicksort(l, r, nums):
-    if len(nums) == 1:  # Terminating Condition for recursion. VERY IMPORTANT!
-        return nums
-    if l < r:
-        pi = partition(l, r, nums)
-        quicksort(l, pi-1, nums)  # Recursively sorting the left values
-        quicksort(pi+1, r, nums)  # Recursively sorting the right values
+    num = 0
     return nums
  
  
