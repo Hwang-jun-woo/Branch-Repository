@@ -1,4 +1,4 @@
-def define_value(data, no_class, unit):
+컴퓨터공학과
 
     for i in range(1, (no_class + 1)):
         minimum = unit * i - 0.5
